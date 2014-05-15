@@ -41,6 +41,8 @@ p 我是yc-team
 
 #### 属性
 
+> 支持() 来分割属性
+
 ```shell
 a(rel="nofollow", href="http://www.wandoujia.com/join#getJobInfo=1") 招聘
 ```
