@@ -16,4 +16,8 @@ show some info about jade
 html
 ```
 
-会转换为： <html></html>
+会转换为：
+
+```shell
+<html></html>
+```
