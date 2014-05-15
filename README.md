@@ -39,6 +39,18 @@ p 我是yc-team
 ```
 
 
+#### 属性
+
+```shell
+a(rel="nofollow", href="http://www.wandoujia.com/join#getJobInfo=1") 招聘
+```
+
+会转换为：
+
+```shell
+<a rel="nofollow" href="http://www.wandoujia.com/join#getJobInfo=1">招聘</a>
+```
+
 
 #### 注释
 
