@@ -61,3 +61,14 @@ body
   //
     p 测试代码by yaochun
 ```
+
+会转换为：
+
+```shell
+
+<body>
+  <!--p 测试代码by yaochun 
+  -->
+</body>
+
+```
