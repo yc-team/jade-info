@@ -30,3 +30,9 @@ html
 ```shell
 p 我是yc-team
 ```
+
+会转换为：
+
+```shell
+<p>我是yc-team</p>
+```
