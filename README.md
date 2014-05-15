@@ -6,6 +6,7 @@ show some info about jade
 
 #### 工具
 
+* [online official](http://jade-lang.com/)
 * [online html2jade](http://html2jade.aaron-powell.com/)
 
 
