@@ -37,3 +37,22 @@ p 我是yc-team
 ```shell
 <p>我是yc-team</p>
 ```
+
+
+
+#### 注释
+
+* 单行注释
+
+```shell 
+// changed by yc-team 
+```
+
+会转换为：
+
+```shell 
+<!-- changed by yc-team -->
+```
+
+* 多行注释
+
