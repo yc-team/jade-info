@@ -21,3 +21,12 @@ html
 ```shell
 <html></html>
 ```
+
+
+#### 文本
+
+> 如何在标签里面加上文本
+
+```shell
+p 我是yc-team
+```
