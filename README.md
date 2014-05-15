@@ -14,13 +14,13 @@ show some info about jade
 #### 标签
 
 ```shell
-html
+p
 ```
 
 会转换为：
 
 ```shell
-<html></html>
+<p></p>
 ```
 
 
