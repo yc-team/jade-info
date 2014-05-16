@@ -50,6 +50,33 @@ p 我是yc-team
 <p>我是yc-team</p>
 ```
 
+* 标签里面如果有标签？
+
+```shell
+p Welcome to wandoujia fe, we want <b>you</b>
+```
+
+会转换为：
+
+```shell
+<p>Welcome to wandoujia fe, we want <b>you</b></p>
+```
+
+* 标签里面如果有大段的内容？
+
+比如很多script里面，注意是script后面有一个.
+
+```shell
+script.
+  console.log('Welcome to join wandoujia-fe')
+```
+
+会转换为：
+
+```shell
+<script>console.log('Welcome to join wandoujia-fe')</script>
+```
+
 
 #### 属性
 
