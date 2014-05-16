@@ -328,6 +328,9 @@ p my name is \#{name}
 <script></script>
 ```
 
+> | 其实就是管道，一般也可以定义一段文本
+
+
 #### 循环
 
 > jade支持each用作循环
