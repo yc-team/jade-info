@@ -52,6 +52,8 @@ p 我是yc-team
 
 * 标签里面如果有标签？
 
+其实是一样的，直接写就行
+
 ```shell
 p Welcome to wandoujia fe, we want <b>you</b>
 ```
@@ -62,7 +64,7 @@ p Welcome to wandoujia fe, we want <b>you</b>
 <p>Welcome to wandoujia fe, we want <b>you</b></p>
 ```
 
-* 标签里面如果有大段的内容？
+* 标签里面如果有大段的块内容？
 
 比如很多script里面，注意是script后面有一个.
 
