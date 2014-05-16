@@ -188,7 +188,7 @@ a#download-btn.btn.blue-btn
 
 #### 代码
 
-* 不会被缓冲
+* 不会被缓冲代码
 
 ```shell
 - for (var i = 0; i < 3; i++)
@@ -203,6 +203,41 @@ a#download-btn.btn.blue-btn
 <li>yc-team</li>
 ```
 
+* 被缓冲代码
+
+```shell
+p= 'Welcome to wandoujia fe, we want you'
+```
+
+会转换为：
+
+```shell
+<p>Welcome to wandoujia fe, we want you</p>
+```
+
+> 这里注意一下 = 默认会转义内容
+
+```shell
+p= 'Welcome to wandoujia fe, we want <b>you</b>'
+```
+
+会转换为：
+
+```shell
+<p>Welcome to wandoujia fe, we want &lt;b&gt;you&lt;/b&gt;</p>
+```
+
+那如何处理那些不想被转义的呢？
+
+```shell
+p!= 'Welcome to wandoujia fe, we want <b>you</b>'
+```
+
+会转换为：
+
+```shell
+<p>Welcome to wandoujia fe, we want <b>you</b></p>
+```
 
 #### 循环
 
