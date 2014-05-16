@@ -1,8 +1,16 @@
-jade-info
-=========
+#### what is jade?
 
-show some info about jade
+- 模板引擎
+- 用js实现
+- 供node使用
 
+#### 安装？
+
+本文介绍node安装
+
+```shell
+npm install jade
+```
 
 #### 工具
 
