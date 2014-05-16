@@ -41,13 +41,13 @@ input
 > 如何在标签里面加上文本
 
 ```shell
-p 我是yc-team
+p 欢迎加入wandoujia-fe
 ```
 
 会转换为：
 
 ```shell
-<p>我是yc-team</p>
+<p>欢迎加入wandoujia-fe</p>
 ```
 
 * 标签里面如果有标签？
