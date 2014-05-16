@@ -66,18 +66,46 @@ p Welcome to wandoujia fe, we want <b>you</b>
 
 * 标签里面如果有大段的块内容？
 
+1 方式一
+
 比如很多script里面，注意是script后面有一个.
 
 ```shell
 script.
   console.log('Welcome to join wandoujia-fe')
+  console.log('We want you')
 ```
 
 会转换为：
 
 ```shell
-<script>console.log('Welcome to join wandoujia-fe')</script>
+<script>
+  console.log('Welcome to join wandoujia-fe')
+  console.log('We want you')
+</script>
 ```
+
+> 这边主要是通过在标签后面加 . 来实现的
+
+
+2 方式二
+
+```shell
+script
+  | console.log('Welcome to join wandoujia-fe')
+  | console.log('We want you')
+```
+
+会转换为：
+
+```shell
+<script>
+  console.log('Welcome to join wandoujia-fe')
+  console.log('We want you')
+</script>
+```
+
+> 这边主要是通过在标签后面加 | 来实现的
 
 
 #### 属性
