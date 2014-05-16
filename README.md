@@ -268,6 +268,66 @@ p!= 'Welcome to wandoujia fe, we want <b>you</b>'
 <p>Welcome to wandoujia fe, we want <b>you</b></p>
 ```
 
+* 如何用变量定义的值呢？
+
+```shell
+- var name = 'yaochun'
+p my name is #{name}
+```
+
+会转换为：
+
+```shell
+<p>my name is yaochun</p>
+```
+
+* 如果就是要输出 #{} 呢？
+
+加一个 \ 转义
+
+
+```shell
+- var name = 'yaochun'
+p my name is \#{name}
+```
+
+会转换为：
+
+```shell
+<p>my name is #{name}</p>
+```
+
+* 那变量的值输出出来会被转义吗?
+
+比如变量是一个script
+
+```shell
+- var name = '<script></script>'
+| #{name}
+```
+
+会转换为：
+
+```shell
+&lt;script&gt;&lt;/script&gt;
+```
+
+从结果看，是会被转义的。
+
+
+* 那变量的值输出出来不被转义呢?
+
+```shell
+- var name = '<script></script>'
+| !{name}
+```
+
+会转换为：
+
+```shell
+<script></script>
+```
+
 #### 循环
 
 > jade支持each用作循环
