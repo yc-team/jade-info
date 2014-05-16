@@ -6,11 +6,13 @@
 
 #### 安装？
 
-本文介绍node安装
+本文介绍node安装，以此命令行使用
 
-```shell
-npm install jade
-```
+  npm install jade -g
+  jade -h
+
+
+
 
 #### 工具
 
