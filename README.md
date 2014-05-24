@@ -19,6 +19,7 @@ jade -h
 
 * 推荐：[online official](http://jade-lang.com/)
 * [online html2jade](http://html2jade.aaron-powell.com/)
+* [old jade](http://naltatis.github.io/jade-syntax-docs/#text)
 
 
 
